@@ -6,13 +6,14 @@ function Banner() {
   return (
     <div>
         <div className="banner-container">
-            <h1>Welcome Back Sytem.  </h1>
-            <p>This is the landing page of the System</p>
-            <img src={hrImage} alt="HR Image" className="bannerImg"/>
+            <div className="banner-Txt">
+                <h1>Welcome Back Sytem.  </h1>
+                <p>This is the landing page of the System</p>
+            </div>
         </div>
-        <div className="ps-container">
+        {/* <div className="ps-container">
             <img src={psImage} alt="PS Image" className="bannerImg"/>
-        </div>
+        </div> */}
     </div>
   )
 }

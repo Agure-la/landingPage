@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
 function Footer() {
@@ -12,14 +12,14 @@ function Footer() {
 
         </div>
         <div className="social-container">
-            <Link to="#">
+            {/* <Link to="#">
                 <FontAwesomeIcon icon={faEnvelope} />
             </Link>
-            {/* <Link> <span></span></Link>
+            <Link> <span></span></Link>
             <Link>  <span></span></Link>
             <Link>  <span></span></Link> */}
         </div>
-        <div className="">
+        <div className="footer-container">
             <span className='footerTxt'><span className="copyrightTxt">&copy; {year}</span><span className=''> Agure</span> All rights reserved.</span>
         </div>
     </div>

@@ -1,3 +1,63 @@
+/* Navbar STYLES */
+.navbarContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.navbarContainer .actionsBtn{
+    padding:1.5rem 3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2rem; 
+}
+.navbarContainer .loginBtn,.navbarContainer .registerBtn{
+    color:#ffffff;
+    font-size:1.15rem;
+    padding:0.6rem 0.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.navbarContainer .registerBtn{
+    background-color: #4acf50;
+}
+.navbarContainer .loginBtn{
+    background-color: #318CE7;
+}
+/* END OF NAVBAR STYLES */
+
+
+/* START OF BANNER STYLES  */
+.banner-container{
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./assets/hr.jpg');
+}
+.banner-container .banner-Txt{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    padding-top: 15%;
+}
+.banner-Txt h1{
+    color:#318CE7;
+}
+.banner-Txt p{
+    color:#f28500;
+}
 .bannerImg{
     width:20vw;
 }
+/* END OF BANNER STYLES */
+
+/* START OF FOOTER STYLES */
+.footer-container{
+    text-align: center;
+    padding:1.2rem 0.4rem;
+}
+/* END OF FOOTER STYLES */
